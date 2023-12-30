@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import Doctor from "../Assets/doctor-picture.png";
+import Doctor from "../Assets/tech.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendarCheck, faAngleUp } from "@fortawesome/free-solid-svg-icons";
-import { useNavigate  } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "../Styles/Hero.css";
 
 function Hero() {
@@ -36,31 +36,30 @@ function Hero() {
     <div className="section-container">
       <div className="hero-section">
         <div className="text-section">
-          <p className="text-headline">❤️ Health comes first</p>
+          <p className="text-headline">❤️ Progress By Innovation !</p>
           <h2 className="text-title">
-            Find your Doctor and make an Appointments
+          Tech Enthusiast believe in progress by innovation
           </h2>
           <p className="text-descritpion">
-            Talk to online doctors and get medical advice, online prescriptions,
-            refills and medical notes within minutes. On-demand healthcare
-            services at your fingertips.
+            We continually developing ways to keep our business ahead of the
+            curve, so we can continue delivering the best products and services.
+            We are Canadian Innovative IT consultancy.
           </p>
           <button
             className="text-appointment-btn"
             type="button"
-            onClick={handleBookAppointmentClick}
-          >
-            <FontAwesomeIcon icon={faCalendarCheck} /> Book Appointment
+            onClick={handleBookAppointmentClick}>
+            <FontAwesomeIcon icon={faCalendarCheck} /> Get Hired
           </button>
           <div className="text-stats">
             <div className="text-stats-container">
               <p>145k+</p>
-              <p>Receive Patients</p>
+              <p>Employees</p>
             </div>
 
             <div className="text-stats-container">
               <p>50+</p>
-              <p>Expert Doctors</p>
+              <p>Expert Professionals</p>
             </div>
 
             <div className="text-stats-container">
@@ -77,8 +76,7 @@ function Hero() {
 
       <div
         onClick={scrollToTop}
-        className={`scroll-up ${goUp ? "show-scroll" : ""}`}
-      >
+        className={`scroll-up ${goUp ? "show-scroll" : ""}`}>
         <FontAwesomeIcon icon={faAngleUp} />
       </div>
     </div>

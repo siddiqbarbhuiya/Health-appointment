@@ -15,28 +15,28 @@ function About() {
           <span>About Us</span>
         </h3>
         <p className="about-description">
-          Welcome to Health Plus, your trusted partner for accessible and
-          personalized healthcare. Our expert doctors offer online consultations
-          and specialized services, prioritizing your well-being. Join us on
-          this journey towards a healthier you.
+          Tech Enthusiast believe in progress by innovation. We continually
+          developing ways to keep our business ahead of the curve, so we can
+          continue delivering the best products and services. We are Canadian
+          Innovative IT consultancy.
         </p>
 
-        <h4 className="about-text-title">Your Solutions</h4>
+        {/* <h4 className="about-text-title">Your Solutions</h4> */}
 
         <SolutionStep
-          title="Choose a Specialist"
-          description="Find your perfect specialist and book with ease at Health Plus. Expert doctors prioritize your health, offering tailored care."
+          title="Our Vision"
+          description="We are a company whose vision is to be the world’s leading technology company. Our mission is to offer innovative, high-quality products and services designed with an eye towards efficiency, speed and usability without compromising safety or reliability. "
         />
 
         <SolutionStep
-          title="Make a Schedule"
-          description="Choose the date and time that suits you best, and let our dedicated team of medical professionals ensure your well-being with personalized care."
+          title="Our Mission"
+          description="We strive to be industry-leading at all times and set the standard for success and excellence. We measure our success by the value we create for our clients, employees and shareholders by delivering high-quality services."
         />
 
-        <SolutionStep
+        {/* <SolutionStep
           title="Get Your Solutions"
           description="Our experienced doctors and specialists are here to provide expert advice and personalized treatment plans, helping you achieve your best possible health."
-        />
+        /> */}
       </div>
     </div>
   );

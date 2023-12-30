@@ -1,11 +1,11 @@
 import React from "react";
-import Doctor from "../Assets/doctor-book-appointment.png";
+import Doctor from "../Assets/tech.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCircleCheck,
   faCalendarCheck,
 } from "@fortawesome/free-solid-svg-icons";
-import { useNavigate  } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "../Styles/BookAppointment.css";
 
 function BookAppointment() {
@@ -23,34 +23,37 @@ function BookAppointment() {
 
       <div className="ba-text-content">
         <h3 className="ba-title">
-          <span>Why Choose Health</span>
+          <span>Why Choose Tech Enthusiast</span>
         </h3>
         <p className="ba-description">
-          Discover the reasons to choose Health Plus for your healthcare needs.
-          Experience expert care, convenience, and personalized solutions,
-          making your well-being our top priority. Join us on a journey to
-          better health and a happier life.
+          Tech Enthusiast believe in progress by innovation. We continually developing
+          ways to keep our business ahead of the curve, so we can continue
+          delivering the best products and services. We are Canadian Innovative
+          IT consultancy.
         </p>
 
         <p className="ba-checks ba-check-first">
-          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#1E8FFD" }} /> Best Professional Doctors
+          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#1E8FFD" }} />{" "}
+          Best Professionals
         </p>
+        {/* <p className="ba-checks">
+          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#1E8FFD" }} />{" "}
+          Emergency Care
+        </p> */}
         <p className="ba-checks">
-          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#1E8FFD" }} /> Emergency Care
+          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#1E8FFD" }} />{" "}
+          24/7 Support Live Chat
         </p>
-        <p className="ba-checks">
-          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#1E8FFD" }} /> 24/7 Support Live Chat
-        </p>
-        <p className="ba-checks ba-check-last">
-          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#1E8FFD" }} /> Enrollment Easy and Quick
-        </p>
+        {/* <p className="ba-checks ba-check-last">
+          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#1E8FFD" }} />{" "}
+          Enrollment Easy and Quick
+        </p> */}
 
         <button
           className="text-appointment-btn"
           type="button"
-          onClick={handleBookAppointmentClick}
-        >
-          <FontAwesomeIcon icon={faCalendarCheck} /> Book Appointment
+          onClick={handleBookAppointmentClick}>
+          <FontAwesomeIcon icon={faCalendarCheck} /> Get Hired
         </button>
       </div>
     </div>

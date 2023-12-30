@@ -31,7 +31,8 @@ function Navbar() {
     <div className="navbar-section">
       <h1 className="navbar-title">
         <Link to="/">
-          Health <span className="navbar-sign">+</span>
+          Tech Enthusiast
+          {/* <span className="navbar-sign">+</span> */}
         </Link>
       </h1>
 
@@ -59,7 +60,7 @@ function Navbar() {
         </li>
         <li>
           <a href="#doctors" className="navbar-links">
-            Doctors
+            Team
           </a>
         </li>
       </ul>
@@ -68,8 +69,7 @@ function Navbar() {
         className="navbar-btn"
         type="button"
         disabled={isButtonDisabled}
-        onClick={handleChatBtnClick}
-      >
+        onClick={handleChatBtnClick}>
         <FontAwesomeIcon icon={faCommentDots} /> Live Chat
       </button>
 

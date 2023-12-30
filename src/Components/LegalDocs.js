@@ -11,46 +11,46 @@ function LegalDocs() {
     <div className="legal-section-title">
       <h1 className="legal-siteTitle">
         <Link to="/">
-          Health <span className="legal-siteSign">+</span>
+          Tech Enthusiast 
+          {/* <span className="legal-siteSign">+</span> */}
         </Link>
       </h1>
 
       <div className="legal-text-content">
         <p className="legal-title">General Info</p>
         <p className="legal-description">
-          Welcome to Health Plus, your trusted online healthcare platform. Our
-          mission is to provide accessible and personalized healthcare services
-          to individuals seeking expert medical advice and treatment. By using
-          our platform, you agree to the terms outlined in our Privacy Policy
-          and Terms of Service.
+          Tech Enthusiast believe in progress by innovation. We continually
+          developing ways to keep our business ahead of the curve, so we can
+          continue delivering the best products and services. We are Canadian
+          Innovative IT consultancy
         </p>
 
         <p className="legal-title">Privacy Policy</p>
         <p className="legal-description">
           Your privacy is paramount to us. Our Privacy Policy outlines how we
-          collect, use, and protect your personal and medical information. We
-          ensure secure data handling, and you can trust that your information
-          is treated with the utmost confidentiality.
+          collect, use, and protect your personal information. We ensure secure
+          data handling, and you can trust that your information is treated with
+          the utmost confidentiality.
         </p>
 
         <p className="legal-title">Terms of Service</p>
         <p className="legal-description">
-          When using Health Plus, you agree to our Terms of Service. This
-          includes guidelines for using our platform, interacting with doctors,
-          and the responsibilities of both parties. It's essential to understand
-          these terms to ensure a smooth experience for all users.
+          When using Tech Enthusiast, you agree to our Terms of Service. This
+          includes guidelines for using our platform, interacting with
+          developers, and the responsibilities of both parties. It's essential
+          to understand these terms to ensure a smooth experience for all users.
         </p>
 
-        <p className="legal-title">Consultations</p>
+        <p className="legal-title">Solutions</p>
         <p className="legal-description">
-          Our platform connects you with expert doctors who provide online
-          consultations. These consultations are not a replacement for in-person
-          medical visits but serve as a convenient option for medical advice,
-          prescriptions, and guidance. It's crucial to provide accurate and
-          complete information to receive the best possible care.
+          Our platform connects you with expert developers who provide online
+          sultions. These consultations are not a replacement for in-person
+          visits but serve as a convenient option. It's crucial to provide
+          accurate and complete information to receive the best possible
+          outcome.
         </p>
 
-        <p className="legal-title">How it Works</p>
+        {/* <p className="legal-title">How it Works</p>
         <p className="legal-description">
           Health Plus is designed to simplify healthcare access. You can choose
           a specialist, schedule an appointment, and engage in a virtual
@@ -58,11 +58,11 @@ function LegalDocs() {
           plans tailored to your needs. Please remember that emergencies require
           immediate medical attention and should be directed to your local
           medical facility.
-        </p>
+        </p> */}
       </div>
 
       <div className="legal-footer">
-        <p>© 2013-2023 Health+. All rights reserved.</p>
+        <p>© 2013-2023 Tech Enthusiast. All rights reserved.</p>
       </div>
     </div>
   );
